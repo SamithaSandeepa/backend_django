@@ -34,7 +34,9 @@ SECRET_KEY = "django-insecure-9qlye*m#ojd#=wf%1uyd-_9j=quzl@yycrs*v3bk1f6-l-%1v7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '13.214.171.27', '0.0.0.0', 'fablab.onrender.com', 'http://0.0.0.0:8000/', '0.0.0.0:8000', 'http://0.0.0.0:8000', '52.90.51.85', 'django']
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1', '13.214.171.27', '0.0.0.0', 'fablab.onrender.com', 'http://0.0.0.0:8000/', '0.0.0.0:8000', 'http://0.0.0.0:8000', '52.90.51.85', 'django']
+
+ALLOWED_HOSTS = ['localhost', 'django']
 
 
 # Application definition
